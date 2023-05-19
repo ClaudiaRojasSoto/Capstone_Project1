@@ -54,7 +54,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Capstone_Project1] <a name="about-project"></a>
 
 **[Capstone_Project1]** 
-This repository showcases a customized website based on an online conference platform and demonstrates my skills in HTML, CSS, and DOM manipulation with JavaScript.
+This repository showcases a customized website based on an online conference platform demonstrating my skills in mobile design using Flexbox, Linters, and best practices in HTML and CSS, in addition to highlights my proficiency in creating responsive designs for desktop viewing. By employing media queries and adhering to industry standards, I have ensured that the project adapts seamlessly to different screen sizes and devices. Moreover, my meticulous approach to version control and adherence to best practices make the project highly maintainable, enabling future developers to easily understand and build upon it. In addition, it introduces the use of JavaScript for the dynamic creation of web and popup windows, together with the use of data objects in the display.
 
 ## 🛠 Built With <a name="built-with"></a>
 
