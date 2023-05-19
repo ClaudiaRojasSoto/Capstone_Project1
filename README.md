@@ -51,10 +51,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio_1] <a name="about-project"></a>
+# 📖 [Capstone_Project1] <a name="about-project"></a>
 
-**[Portfolio_1]** 
-This project showcases my skills in mobile design using Flexbox, Linters, and best practices in HTML and CSS. It demonstrates my ability to create responsive designs and follow best practices in version control, making it easy to understand and build upon.
+**[Capstone_Project1]** 
+This repository showcases a customized website based on an online conference platform and demonstrates my skills in HTML, CSS, and DOM manipulation with JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -86,6 +86,8 @@ This project showcases my skills in mobile design using Flexbox, Linters, and be
 - **[Pull request]**
 - **[Descriptive commits]**
 - **[Flexbox use]**
+- **[Responsive Design]**
+- **[JavaScript Functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +101,7 @@ This project showcases my skills in mobile design using Flexbox, Linters, and be
 ### Setup
 Clone this repository to your local machine:
 
-git clone https://github.com/ClaudiaRojasSoto/portfolio_1
+git clone git@github.com:ClaudiaRojasSoto/Capstone_Project1.git
 
 
 ### Prerequisites
@@ -187,8 +189,6 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
--**[Implement Responsive Design]**
--**[Add JavaScript Functionality]**
 -**[Integrate Backend Functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -197,9 +197,7 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/ClaudiaRojasSoto/Capstone_Project1).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,6 +218,8 @@ If you like this project, please give it a ⭐️!
 I would like to thank...
 <p> * Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.</p>
 <p> * GitHub Docs for providing a wealth of information on Git and GitHub.</p>
+<p> * Creative Commons for providing the design of this work.</p>
+<p> * Cindy Shine.......</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,7 +234,6 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 Footer
