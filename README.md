@@ -63,19 +63,15 @@ This repository showcases a customized website based on an online conference pla
 
 <details>
   <summary>HTML</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
 </details>
 
 <details>
   <summary>CSS</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
 </details>
 
-
+<details>
+  <summary>JavaScript</summary>
+</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -107,15 +103,6 @@ git clone git@github.com:ClaudiaRojasSoto/Capstone_Project1.git
 ### Prerequisites
 
 In order to use this project, you need to have Node.js and npm installed on your local machine.
-
-<!--
-Example command:
-```sh
- gem install rails
-```
- -->
-
-
 
 ### Install
 
