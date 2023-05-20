@@ -139,9 +139,9 @@ body {
 }
 
 .more-button button {
-  background-color: var(--color-white);
+  background-color: var(--color-box);
   color: var(--color-primary-variant);
-  border: 2px solid var(--color-light);
+  border: 0.1px solid var(--color-primary-variant);
   margin: 3% 3% 7% 3%;
   padding: 2% 39%;
   font-size: 11px;
