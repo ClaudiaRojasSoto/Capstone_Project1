@@ -156,6 +156,12 @@ body {
   padding: 0;
 }
 
+.more-button img {
+  width: 11px;
+  height: 7px;
+  margin-left: 15px;
+}
+
 .featured-speakers {
   margin: 3% 4%;
 }
@@ -224,6 +230,6 @@ body {
   border: 0.5px solid var(--color-primary-variant);
 }
 
-.speaker-backgroun {
+.speaker-background {
   font-size: 9px;
 }
