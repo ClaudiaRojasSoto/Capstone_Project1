@@ -7,3 +7,230 @@
   list-style: none;
   text-decoration: none;
 }
+
+:root {
+  --color-bg: #272431;
+  --color-white: #fff;
+  --color-primary: #ec5242;
+  --color-primary-variant: #3c3f46;
+  --color-light: #d3d3d3;
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--color-white);
+}
+
+.background {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/ninosninas.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.menu-toggle {
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 6%;
+  margin-bottom: 3%;
+}
+
+.main-section {
+  padding: 5%;
+}
+
+.main-subtitle {
+  color: var(--color-primary);
+  font-size: 20px;
+  padding: 0 2%;
+}
+
+.main-section h1 {
+  font-size: 40px;
+  color: var(--color-primary);
+  font-weight: 900;
+  padding: 0 2%;
+}
+
+.main-content {
+  padding: 5% 3%;
+  border: 3px solid var(--color-white);
+  font-size: 12px;
+  background-color: #f7f7f7;
+  margin: 7% 0;
+}
+
+.main-date {
+  color: var(--color-bg);
+  font-weight: 900;
+  font-size: 25px;
+  padding: 0 2%;
+}
+
+.main-direction {
+  font-size: 15px;
+  margin: 2% 0 13% 0;
+  padding: 0 2%;
+}
+
+.program {
+  background-color: var(--color-bg);
+  background-image: url("../img/bg-dark.png");
+  color: var(--color-white);
+}
+
+.program-title {
+  padding-top: 7%;
+  text-align: center;
+}
+
+.line {
+  margin: 5% 45% 7% 45%;
+  border: 0.5px solid var(--color-primary);
+}
+
+.program-box {
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  align-items: center;
+  background-color: var(--color-primary-variant);
+  background-image: url("../img/bg-dark.png");
+  margin: 3%;
+}
+
+.program-image img {
+  width: 90%;
+  height: 90%;
+}
+
+.program-box h4 {
+  font-size: 13px;
+  color: var(--color-primary);
+  padding: 0 10%;
+}
+
+.program-box p {
+  font-size: 10px;
+  padding: 0 0.5% 0 10%;
+}
+
+.container-program-button {
+  text-align: center;
+}
+
+.program-button {
+  padding: 6% 12%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  margin: 5% 0 10% 0;
+}
+
+.more-button {
+  display: flex;
+  align-items: center;
+}
+
+.more-button button {
+  background-color: var(--color-white);
+  color: var(--color-primary-variant);
+  border: 2px solid var(--color-light);
+  margin: 3% 3% 7% 3%;
+  padding: 2% 39%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.more-button ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.more-button img {
+  width: 11px;
+  height: 7px;
+  margin-left: 15px;
+}
+
+.featured-speakers {
+  margin: 3% 4%;
+}
+
+.featured-speakers-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card .speaker-image {
+  position: relative;
+  z-index: 1;
+  width: 30%;
+}
+
+.card .speaker-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/chess-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.card .speaker-image img {
+  width: 85%;
+  height: auto;
+}
+
+.speaker-info {
+  margin-left: 10px;
+}
+
+.speaker {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.speaker-profession {
+  font-size: 11px;
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+.line2 {
+  margin: 3% 90% 3% 0;
+  border: 0.5px solid var(--color-primary-variant);
+}
+
+.speaker-background {
+  font-size: 9px;
+}
