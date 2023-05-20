@@ -102,3 +102,20 @@ body {
   height: 0.5px;
   background-color: var(--color-bg);
 }
+
+.about-me-title h4 {
+  padding-top: 7%;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+
+.line {
+  margin: 2% 45%;
+  border: 0.5px solid var(--color-primary);
+}
+
+.about-me-title p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 10px;
+}
