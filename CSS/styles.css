@@ -168,23 +168,25 @@ body {
 
 .featured-speakers-cards {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.card1 {
+.card {
   display: flex;
   align-items: flex-start;
   padding-left: 10px;
   position: relative;
+  margin-bottom: 30px;
 }
 
-.card1 .speaker-image {
+.card .speaker-image {
   position: relative;
   z-index: 1;
   width: 30%;
 }
 
-.card1 .speaker-image::before {
+.card .speaker-image::before {
   content: "";
   position: absolute;
   top: 0;
@@ -194,12 +196,11 @@ body {
   background-image: url("../img/chess-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left top;
   opacity: 0.3;
   z-index: -1;
 }
 
-.card1 .speaker-image img {
+.card .speaker-image img {
   width: 85%;
   height: auto;
 }
