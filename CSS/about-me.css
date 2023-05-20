@@ -150,25 +150,28 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 10px;
+  margin-bottom: 20px;
 }
 
 .about-past-images-section > li {
   position: relative;
   color: #fff;
   z-index: 1;
-  margin-bottom: 20px; /* Ajusta el valor según tus preferencias */
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
 }
 
 .about-past-images-section > li::before {
   content: "";
   position: absolute;
   top: 5%;
-  left: 5%;
-  right: 5%;
+  left: 7%;
+  right: 7%;
   bottom: 5%;
-  background-size: cover; /* Cambio realizado */
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(217, 110, 90, 0.7);
+  background-color: rgba(167, 26, 1, 0.7);
   background-blend-mode: overlay;
   z-index: -1;
 }
@@ -179,4 +182,13 @@ body {
 
 .about-past-images-section > li:nth-child(2)::before {
   background-image: url('../img/familias.jpg');
+}
+
+.about-past-images-section ul li:nth-child(1) {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about-past-images-section ul li:nth-child(2) {
+  font-size: 12px;
 }
