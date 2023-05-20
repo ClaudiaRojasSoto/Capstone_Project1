@@ -52,6 +52,7 @@ body {
   font-size: 20px;
   padding: 0 2%;
   text-align: center;
+  margin-bottom: 9px;
 }
 
 .main-section h1 {
@@ -67,7 +68,7 @@ body {
   border: 3px solid var(--color-border);
   font-size: 12px;
   background-color: var(--color-white);
-  margin: 7% 0;
+  margin: 5% 0;
   height: 122px;
   line-height: 1.9;
   text-align: center;
@@ -75,13 +76,29 @@ body {
 
 .main-date {
   color: var(--color-bg);
-  font-weight: 900;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 10px;
   padding: 0 2%;
+  text-align: center;
+  line-height: 15px;
+  margin-bottom: 3px;
 }
 
 .main-direction {
-  font-size: 15px;
-  margin: 2% 0 13% 0;
+  color: var(--color-bg);
+  font-weight: 700;
+  font-size: 10px;
   padding: 0 2%;
+  text-align: center;
+  position: relative;
+}
+
+.main-direction::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 27%;
+  right: 27%;
+  height: 0.5px;
+  background-color: var(--color-bg);
 }
