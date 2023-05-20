@@ -140,9 +140,9 @@ body {
 .more-button button {
   background-color: var(--color-white);
   color: var(--color-primary-variant);
-  border: 1px solid var(--color-light);
+  border: 2px solid var(--color-light);
   margin: 3% 3% 7% 3%;
-  padding: 2% 40.5%;
+  padding: 2% 39%;
   font-size: 11px;
   display: flex;
   align-items: center;
