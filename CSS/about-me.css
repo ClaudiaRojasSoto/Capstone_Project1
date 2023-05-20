@@ -151,3 +151,32 @@ body {
   font-weight: 400;
   font-size: 10px;
 }
+
+.about-past-images-section > li {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  margin-bottom: 20px; /* Ajusta el valor según tus preferencias */
+}
+
+.about-past-images-section > li::before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  background-size: cover; /* Cambio realizado */
+  background-repeat: no-repeat;
+  background-color: rgba(217, 110, 90, 0.7);
+  background-blend-mode: overlay;
+  z-index: -1;
+}
+
+.about-past-images-section > li:nth-child(1)::before {
+  background-image: url('../img/profes1.jpg');
+}
+
+.about-past-images-section > li:nth-child(2)::before {
+  background-image: url('../img/familias.jpg');
+}
