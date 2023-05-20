@@ -28,7 +28,7 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.802), rgba(255, 255, 255, 0.837)), url("../img/ST_estrellas.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.827), rgba(255, 255, 255, 0.837)), url("../img/ST_estrellas.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
