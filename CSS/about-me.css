@@ -15,6 +15,7 @@
   --color-primary-variant: #3c3f46;
   --color-light: #f5f5f5;
   --color-box: #f7f7f7;
+  --color-border: #ededed;
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -27,7 +28,7 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/ST_estrellas.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.802), rgba(255, 255, 255, 0.837)), url("../img/ST_estrellas.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,11 +63,14 @@ body {
 }
 
 .main-content {
-  padding: 5% 3%;
-  border: 3px solid var(--color-white);
+  padding: 6% 3%;
+  border: 3px solid var(--color-border);
   font-size: 12px;
-  background-color: #f7f7f7;
+  background-color: var(--color-white);
   margin: 7% 0;
+  height: 122px;
+  line-height: 1.9;
+  text-align: center;
 }
 
 .main-date {
