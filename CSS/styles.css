@@ -107,19 +107,18 @@ body {
 }
 
 .program-image img {
-  width: 90%;
-  height: 90%;
+  width: 50px;
+  height: 50px;
 }
 
 .program-box h4 {
   font-size: 13px;
   color: var(--color-primary);
-  padding: 0 10%;
+  padding: 0 15px;
 }
 
 .program-box p {
   font-size: 10px;
-  padding: 0 0.5% 0 10%;
 }
 
 .container-program-button {
