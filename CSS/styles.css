@@ -291,6 +291,11 @@ body {
     color: inherit;
   }
 
+  .program-link-desktop a {
+    text-decoration: underline;
+    color: inherit;
+  }
+
   .nav-social-desktop li a {
     color: var(--color-white);
     font-size: 8px;
@@ -403,7 +408,10 @@ body {
   .program-link-desktop {
     display: block;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 5% 0 5% 0;
+  }
+
+  .program-link-container {
+    padding: 3% 12%;
   }
 }
