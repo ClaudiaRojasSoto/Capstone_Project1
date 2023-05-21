@@ -28,12 +28,13 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.827), rgba(255, 255, 255, 0.837)), url("../img/ST_estrellas.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.758), rgba(255, 255, 255, 0.917)), url("../img/ST_estrellas.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
+  background-color: var(--color-box);
 }
 
 .menu-toggle {
@@ -137,13 +138,15 @@ body {
   background-color: var(--color-border);
   height: 2px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  clear: both;
 }
 
 .about-past-content h4 {
   padding-top: 7%;
   text-align: center;
   letter-spacing: 0.1px;
+  color: var(--color-primary-variant);
 }
 
 .about-past-content p {
@@ -151,44 +154,95 @@ body {
   font-weight: 400;
   font-size: 10px;
   margin-bottom: 20px;
+  color: var(--color-primary-variant);
 }
 
-.about-past-images-section > li {
-  position: relative;
-  color: #fff;
-  z-index: 1;
-  margin-bottom: 20px;
+.about-past-section-image {
   text-align: center;
-  padding: 10px;
+  padding: 5% 7% 12% 7%;
 }
 
-.about-past-images-section > li::before {
-  content: "";
-  position: absolute;
-  top: 5%;
-  left: 7%;
-  right: 7%;
-  bottom: 5%;
+.target1 {
+  background-image: linear-gradient(rgba(138, 21, 1, 0.631), rgba(138, 21, 1, 0.631)), url("../img/familias.jpg");
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: rgba(167, 26, 1, 0.7);
-  background-blend-mode: overlay;
-  z-index: -1;
+  width: 100%;
+  height: auto;
 }
 
-.about-past-images-section > li:nth-child(1)::before {
-  background-image: url('../img/profes1.jpg');
+.target2 {
+  background-image: linear-gradient(rgba(138, 21, 1, 0.631), rgba(138, 21, 1, 0.631)), url("../img/profes1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
 }
 
-.about-past-images-section > li:nth-child(2)::before {
-  background-image: url('../img/familias.jpg');
-}
-
-.about-past-images-section ul li:nth-child(1) {
+.year {
+  color: var(--color-white);
   font-size: 25px;
   font-weight: 700;
+  padding-top: 20%;
 }
 
-.about-past-images-section ul li:nth-child(2) {
+.meeting {
+  color: var(--color-white);
   font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 20%;
+}
+
+.partner {
+  background-color: var(--color-primary-variant);
+  padding: 0 10%;
+}
+
+.title-partners {
+  text-align: center;
+}
+
+.title-partners h4 {
+  color: var(--color-white);
+  padding-top: 7%;
+}
+
+.logos-partners-container {
+  margin-top: 7%;
+}
+
+.logos-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos-partners li {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.logos-partners li img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.logo-footer {
+  padding: 0 10%;
+}
+
+.logo-footer img {
+  width: 80%;
+}
+
+.text-footer {
+  font-size: 10px;
 }
