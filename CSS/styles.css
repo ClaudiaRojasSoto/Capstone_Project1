@@ -40,6 +40,11 @@ body {
   font-weight: 900;
   margin-left: 6%;
   margin-bottom: 3%;
+  display: block;
+}
+
+.nav-desktop {
+  display: none;
 }
 
 .main-section {
@@ -233,4 +238,35 @@ body {
 
 .speaker-background {
   font-size: 9px;
+}
+
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+  }
+
+  .nav-social-desktop {
+    background-color: var(--color-bg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-social-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-social-desktop li {
+    margin-left: 10px;
+    color: var(--color-white);
+  }
 }
