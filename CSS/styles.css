@@ -22,12 +22,16 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: var(--color-box);
 }
 
 .background {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/ninosninas.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../img/ninosninas.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,12 +96,12 @@ body {
 }
 
 .program-title {
-  padding-top: 7%;
+  padding-top: 20px;
   text-align: center;
 }
 
 .line {
-  margin: 5% 45% 7% 45%;
+  margin: 7px 45% 25px 45%;
   border: 0.5px solid var(--color-primary);
 }
 
@@ -255,8 +259,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     height: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10% 0 10%;
   }
 
   .nav-social-desktop ul {
@@ -288,6 +291,11 @@ body {
     font-size: 8px;
   }
 
+ .program-image img {
+    width: 50px;
+    height: 50px;
+  }
+
   .nav-social-desktop li img {
     width: 8px;
     height: 8px;
@@ -300,8 +308,7 @@ body {
     align-items: center;
     height: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10% 0 10%;
   }
 
   .logo-link {
@@ -332,5 +339,53 @@ body {
   .main-section {
     padding-left: 10%;
     padding-right: 40%;
+  }
+
+  .program {
+    background-color: var(--color-bg);
+    background-image: url("../img/bg-dark.png");
+    color: var(--color-white);
+    padding: 0 10% 0 10%;
+  }
+
+  .program-title {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .line {
+    margin: 7px 47% 25px 47%;
+    border: 0.5px solid var(--color-primary);
+  }
+
+  .program-boxes-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .program-box {
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    background-color: var(--color-primary-variant);
+    background-image: url("../img/bg-dark.png");
+    margin: 2px;
+    max-width: 150px;
+    height: 150px;
+    text-align: center;
+  }
+
+  .program-box h4 {
+    font-size: 13px;
+    color: var(--color-primary);
+  }
+
+  .program-box p {
+    font-size: 10px;
+    text-align: center;
+    padding: 0 2%;
   }
 }
