@@ -306,7 +306,6 @@ body {
 
   .logo-link {
     display: flex;
-    margin-left: 6%;
   }
 
   .logo-img {
@@ -328,5 +327,10 @@ body {
   .nav-content-desktop li a {
     color: var(--color-bg);
     font-size: 9px;
+  }
+
+  .main-section {
+    padding-left: 10%;
+    padding-right: 40%;
   }
 }
