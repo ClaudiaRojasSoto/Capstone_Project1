@@ -27,11 +27,7 @@ body {
 }
 
 .background {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url("../img/ninosninas.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/ninosninas.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -244,6 +240,10 @@ body {
   font-size: 9px;
 }
 
+.program-link-desktop {
+  display: none;
+}
+
 @media (min-width: 769px) {
   .menu-toggle {
     display: none;
@@ -286,12 +286,17 @@ body {
     margin-right: 80px;
   }
 
+  .program-link-desktop a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   .nav-social-desktop li a {
     color: var(--color-white);
     font-size: 8px;
   }
 
- .program-image img {
+  .program-image img {
     width: 50px;
     height: 50px;
   }
@@ -345,7 +350,7 @@ body {
     background-color: var(--color-bg);
     background-image: url("../img/bg-dark.png");
     color: var(--color-white);
-    padding: 0 10% 0 10%;
+    padding: 1% 10% 0 10%;
   }
 
   .program-title {
@@ -354,18 +359,19 @@ body {
   }
 
   .line {
-    margin: 7px 47% 25px 47%;
+    margin: 10px 47% 25px 47%;
     border: 0.5px solid var(--color-primary);
   }
 
   .program-boxes-desktop {
     display: flex;
     justify-content: center;
-    gap: 2px;
+    gap: 4px;
+    padding-top: 1%;
   }
 
   .program-box {
-    flex: 1 0 20%;
+    flex: 1 0 0;
     display: flex;
     flex-direction: column;
     padding: 8px;
@@ -373,7 +379,8 @@ body {
     background-color: var(--color-primary-variant);
     background-image: url("../img/bg-dark.png");
     margin: 2px;
-    max-width: 150px;
+    width: 100%;
+    max-width: 250px;
     height: 150px;
     text-align: center;
   }
@@ -386,6 +393,17 @@ body {
   .program-box p {
     font-size: 10px;
     text-align: center;
-    padding: 0 2%;
+    padding: 5% 5%;
+  }
+
+  .container-program-button {
+    display: none;
+  }
+
+  .program-link-desktop {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
