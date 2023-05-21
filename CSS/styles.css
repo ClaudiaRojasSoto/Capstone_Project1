@@ -255,6 +255,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     height: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .nav-social-desktop ul {
@@ -298,6 +300,8 @@ body {
     align-items: center;
     height: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .logo-link {
