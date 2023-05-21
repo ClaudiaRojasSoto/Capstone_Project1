@@ -248,6 +248,10 @@ body {
   display: none;
 }
 
+.footer {
+  display: none;
+}
+
 @media (min-width: 769px) {
   .menu-toggle {
     display: none;
@@ -455,5 +459,18 @@ body {
     width: 100%;
     height: auto;
     filter: grayscale(100%);
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-footer {
+    padding: 0 10%;
+  }
+
+  .text-footer {
+    font-size: 10px;
   }
 }
