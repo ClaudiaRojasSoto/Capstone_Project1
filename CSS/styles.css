@@ -270,6 +270,13 @@ body {
     margin-right: 10px;
   }
 
+  .nav-content-desktop li {
+    margin: 2px;
+    color: var(--color-white);
+    padding-bottom: 6px;
+    margin-right: 40px;
+  }
+
   .nav-social-desktop li:last-child {
     margin-right: 80px;
   }
@@ -282,5 +289,40 @@ body {
   .nav-social-desktop li img {
     width: 8px;
     height: 8px;
+  }
+
+  .nav-content-desktop {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo-link {
+    display: flex;
+    margin-left: 6%;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .nav-content-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .nav-content-desktop li:last-child {
+    margin-right: 80px;
+  }
+
+  .nav-content-desktop li a {
+    color: var(--color-bg);
+    font-size: 9px;
   }
 }
