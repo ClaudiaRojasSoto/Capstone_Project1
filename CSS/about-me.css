@@ -232,6 +232,7 @@ body {
 .logos-partners li img {
   width: 100%;
   height: auto;
+  filter: grayscale(100%);
 }
 
 footer {
