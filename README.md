@@ -146,9 +146,9 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: https://claudiarojassoto.github.io/
 
-  npm run build
+
 
 <!--
 Example:
