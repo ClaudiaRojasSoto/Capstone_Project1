@@ -464,13 +464,15 @@ body {
   .footer {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 0 10% 0 10%;
   }
 
   .logo-footer {
-    padding: 0 10%;
+    padding: 0 15%;
   }
 
   .text-footer {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
