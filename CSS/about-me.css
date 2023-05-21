@@ -225,6 +225,10 @@ body {
   margin: 10px;
 }
 
+.logo-footer img {
+  width: 80%;
+}
+
 .logos-partners li img {
   width: 100%;
   height: auto;
@@ -237,10 +241,6 @@ footer {
 
 .logo-footer {
   padding: 0 10%;
-}
-
-.logo-footer img {
-  width: 80%;
 }
 
 .text-footer {
