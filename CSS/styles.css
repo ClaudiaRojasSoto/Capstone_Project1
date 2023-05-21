@@ -254,19 +254,33 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
+    height: 20px;
   }
 
   .nav-social-desktop ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
 
   .nav-social-desktop li {
-    margin-left: 10px;
+    margin: 2px;
     color: var(--color-white);
+    padding-bottom: 6px;
+    margin-right: 10px;
+  }
+
+  .nav-social-desktop li:last-child {
+    margin-right: 80px;
+  }
+
+  .nav-social-desktop li a {
+    color: var(--color-white);
+    font-size: 8px;
+  }
+
+  .nav-social-desktop li img {
+    width: 8px;
+    height: 8px;
   }
 }
