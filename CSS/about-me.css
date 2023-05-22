@@ -139,8 +139,15 @@ body {
   margin: 7% 5%;
   height: 122px;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+}
+
+.logo-container-about-me a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .logo-container-about-me img {
