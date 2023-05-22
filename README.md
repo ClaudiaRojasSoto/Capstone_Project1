@@ -146,7 +146,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: https://claudiarojassoto.github.io/
+You can deploy this project using: https://claudiarojassoto.github.io/Capstone_Project1/
 
 
 
