@@ -150,6 +150,13 @@ body {
   height: 100%;
 }
 
+.nav-content-desktop li button {
+  border: 2px solid var(--color-primary);
+  color: var(--color-bg);
+  font-size: 9px;
+  padding: 5px 10px;
+}
+
 .logo-container-about-me img {
   max-width: 100%;
   max-height: 100%;
