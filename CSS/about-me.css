@@ -123,7 +123,7 @@ body {
 }
 
 .about-me-title h4 {
-  padding-top: 7%;
+  padding-top: 5%;
   text-align: center;
   letter-spacing: 0.1px;
 }
@@ -138,12 +138,25 @@ body {
   background-color: var(--color-white);
   margin: 7% 5%;
   height: 122px;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .logo-container-about-me img {
-  width: 55%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   margin: 4%;
+}
+
+.about-me-title p:first-child {
+  display: block;
+}
+
+.about-me-title p:last-child {
+  display: none;
 }
 
 .about-past {
@@ -319,6 +332,14 @@ footer {
     height: auto;
   }
 
+  .logo-container-about-me img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 4%;
+  }
+
   .nav-social-desktop li img {
     width: 8px;
     height: 8px;
@@ -331,7 +352,7 @@ footer {
     align-items: center;
     height: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
   }
 
   .logo-link {
@@ -402,5 +423,29 @@ footer {
     text-align: center;
     line-height: 15px;
     margin-bottom: 3px;
+  }
+
+  .about-me-title h4 {
+    padding-top: 3%;
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .line {
+    margin: 1% 45%;
+    border: 0.5px solid var(--color-primary);
+  }
+
+  .logo-container-about-me {
+    margin: 3% 10%;
+  }
+
+  .about-me-title p:first-child {
+    display: none;
+  }
+
+  .about-me-title p:last-child {
+    display: block;
+    padding: 0 30%;
   }
 }
