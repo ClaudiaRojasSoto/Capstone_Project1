@@ -306,6 +306,10 @@ footer {
     margin: 10px;
   }
 
+  .about-past-mages-box-container li {
+    width: 100%;
+  }
+
   .nav-social-desktop li:last-child {
     margin-right: 80px;
   }
@@ -455,10 +459,6 @@ footer {
     width: 100%;
     gap: 4%;
     padding: 0 10%;
-  }
-
-  .about-past-mages-box-container li {
-    width: 100%;
   }
 
   .target2 {
