@@ -376,6 +376,10 @@ body {
     padding: 5px 10px;
   }
 
+  .nav-content-desktop ul li:hover a {
+    color: var(--color-primary);
+  }
+
   .main-section {
     padding-left: 10%;
     padding-right: 40%;

@@ -157,6 +157,10 @@ body {
   padding: 5px 10px;
 }
 
+.nav-content-desktop ul li:hover a {
+  color: var(--color-primary);
+}
+
 .logo-container-about-me img {
   max-width: 100%;
   max-height: 100%;
