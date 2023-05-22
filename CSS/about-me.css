@@ -38,10 +38,15 @@ body {
 }
 
 .menu-toggle {
+  display: block;
   font-size: 40px;
   font-weight: 900;
   margin-left: 6%;
   margin-bottom: 3%;
+}
+
+.nav-desktop {
+  display: none;
 }
 
 .main-section {
@@ -75,6 +80,28 @@ body {
   text-align: center;
 }
 
+.about-me-title p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.about-past-content p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 10px;
+  margin-bottom: 20px;
+  color: var(--color-primary-variant);
+}
+
+.main-content p:first-child {
+  display: block;
+}
+
+.main-content p:last-child {
+  display: none;
+}
+
 .main-date {
   color: var(--color-bg);
   font-weight: 400;
@@ -92,20 +119,11 @@ body {
   padding: 0 2%;
   text-align: center;
   position: relative;
-}
-
-.main-direction::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 27%;
-  right: 27%;
-  height: 0.5px;
-  background-color: var(--color-bg);
+  text-decoration: underline;
 }
 
 .about-me-title h4 {
-  padding-top: 7%;
+  padding-top: 5%;
   text-align: center;
   letter-spacing: 0.1px;
 }
@@ -115,45 +133,41 @@ body {
   border: 0.5px solid var(--color-primary);
 }
 
-.about-me-title p {
-  text-align: center;
-  font-weight: 400;
-  font-size: 10px;
-}
-
 .logo-container-about-me {
   border: 3px solid var(--color-border);
   background-color: var(--color-white);
   margin: 7% 5%;
   height: 122px;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .logo-container-about-me img {
-  width: 55%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   margin: 4%;
+}
+
+.about-me-title p:first-child {
+  display: block;
+}
+
+.about-me-title p:last-child {
+  display: none;
 }
 
 .about-past {
   background-color: var(--color-border);
-  height: 2px;
   margin-top: 20px;
-  margin-bottom: 50px;
-  clear: both;
 }
 
 .about-past-content h4 {
-  padding-top: 7%;
+  padding-top: 5%;
   text-align: center;
   letter-spacing: 0.1px;
-  color: var(--color-primary-variant);
-}
-
-.about-past-content p {
-  text-align: center;
-  font-weight: 400;
-  font-size: 10px;
-  margin-bottom: 20px;
   color: var(--color-primary-variant);
 }
 
@@ -198,6 +212,7 @@ body {
 .partner {
   background-color: var(--color-primary-variant);
   padding: 0 10%;
+  display: block;
 }
 
 .title-partners {
@@ -246,4 +261,231 @@ footer {
 
 .text-footer {
   font-size: 10px;
+}
+
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+  }
+
+  .nav-social-desktop {
+    background-color: var(--color-bg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    padding: 0 10% 0 10%;
+  }
+
+  .nav-social-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .nav-social-desktop li {
+    margin: 2px;
+    color: var(--color-white);
+    padding-bottom: 6px;
+    margin-right: 10px;
+  }
+
+  .nav-content-desktop li {
+    margin: 2px;
+    color: var(--color-white);
+    padding-bottom: 6px;
+    margin-right: 40px;
+  }
+
+  .logos-partners li {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+  }
+
+  .about-past-mages-box-container li {
+    width: 100%;
+  }
+
+  .nav-social-desktop li:last-child {
+    margin-right: 80px;
+  }
+
+  .program-link-desktop a {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  .nav-social-desktop li a {
+    color: var(--color-white);
+    font-size: 8px;
+  }
+
+  .program-image img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-footer img {
+    width: 130%;
+    height: auto;
+  }
+
+  .logo-container-about-me img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 4%;
+  }
+
+  .nav-social-desktop li img {
+    width: 8px;
+    height: 8px;
+  }
+
+  .nav-content-desktop {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0 10%;
+  }
+
+  .logo-link {
+    display: flex;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .nav-content-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .nav-content-desktop li:last-child {
+    margin-right: 80px;
+  }
+
+  .nav-content-desktop li a {
+    color: var(--color-bg);
+    font-size: 9px;
+  }
+
+  .main-section {
+    padding: 5% 10%;
+  }
+
+  .main-section h1 {
+    font-size: 35px;
+    color: var(--color-primary);
+    font-weight: 800;
+    text-align: center;
+    padding: 0 22%;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 3%;
+    border: 3px solid var(--color-border);
+    font-size: 12px;
+    background-color: var(--color-white);
+    margin: 5% 0;
+    height: 122px;
+    line-height: 1.9;
+    text-align: center;
+  }
+
+  .main-content p:first-child {
+    display: none;
+  }
+
+  .main-content p:last-child {
+    display: block;
+  }
+
+  .main-date {
+    color: var(--color-bg);
+    font-weight: 400;
+    font-size: 10px;
+    padding: 0 2%;
+    text-align: center;
+    line-height: 15px;
+    margin-bottom: 3px;
+  }
+
+  .about-me-title h4 {
+    padding-top: 3%;
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+  .line {
+    margin: 1% 45%;
+    border: 0.5px solid var(--color-primary);
+  }
+
+  .logo-container-about-me {
+    margin: 3% 25%;
+  }
+
+  .about-me-title p:first-child {
+    display: none;
+  }
+
+  .about-me-title p:last-child {
+    display: block;
+    padding: 0 30%;
+  }
+
+  .about-past-mages-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    gap: 4%;
+    padding: 0 10%;
+  }
+
+  .target2 {
+    margin: 0;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer {
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 10% 2% 10%;
+  }
+
+  .logo-footer {
+    padding: 0 15%;
+  }
+
+  .text-footer {
+    font-size: 15px;
+  }
 }
