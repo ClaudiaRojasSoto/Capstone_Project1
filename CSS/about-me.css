@@ -38,10 +38,15 @@ body {
 }
 
 .menu-toggle {
+  display: block;
   font-size: 40px;
   font-weight: 900;
   margin-left: 6%;
   margin-bottom: 3%;
+}
+
+.nav-desktop {
+  display: none;
 }
 
 .main-section {
@@ -246,4 +251,124 @@ footer {
 
 .text-footer {
   font-size: 10px;
+}
+
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+  }
+
+  .nav-social-desktop {
+    background-color: var(--color-bg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    padding: 0 10% 0 10%;
+  }
+
+  .nav-social-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .nav-social-desktop li {
+    margin: 2px;
+    color: var(--color-white);
+    padding-bottom: 6px;
+    margin-right: 10px;
+  }
+
+  .nav-content-desktop li {
+    margin: 2px;
+    color: var(--color-white);
+    padding-bottom: 6px;
+    margin-right: 40px;
+  }
+
+  .logos-partners li {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+  }
+
+  .nav-social-desktop li:last-child {
+    margin-right: 80px;
+  }
+
+  .program-link-desktop a {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  .nav-social-desktop li a {
+    color: var(--color-white);
+    font-size: 8px;
+  }
+
+  .program-image img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-footer img {
+    width: 130%;
+    height: auto;
+  }
+
+  .nav-social-desktop li img {
+    width: 8px;
+    height: 8px;
+  }
+
+  .nav-content-desktop {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0 10% 0 10%;
+  }
+
+  .logo-link {
+    display: flex;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .nav-content-desktop ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .nav-content-desktop li:last-child {
+    margin-right: 80px;
+  }
+
+  .nav-content-desktop li a {
+    color: var(--color-bg);
+    font-size: 9px;
+  }
+
+  .main-section {
+    padding: 5% 10%;
+  }
+
+  .main-section h1 {
+    font-size: 35px;
+    color: var(--color-primary);
+    font-weight: 800;
+    text-align: center;
+    padding: 0 22%;
+  }
 }
