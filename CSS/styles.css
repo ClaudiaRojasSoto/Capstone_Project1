@@ -369,6 +369,17 @@ body {
     font-size: 9px;
   }
 
+  .nav-content-desktop li button {
+    border: 2px solid var(--color-primary);
+    color: var(--color-bg);
+    font-size: 9px;
+    padding: 5px 10px;
+  }
+
+  .nav-content-desktop ul li:hover a {
+    color: var(--color-primary);
+  }
+
   .main-section {
     padding-left: 10%;
     padding-right: 40%;

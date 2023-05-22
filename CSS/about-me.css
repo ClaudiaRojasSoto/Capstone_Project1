@@ -139,8 +139,26 @@ body {
   margin: 7% 5%;
   height: 122px;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+}
+
+.logo-container-about-me a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-content-desktop li button {
+  border: 2px solid var(--color-primary);
+  color: var(--color-bg);
+  font-size: 9px;
+  padding: 5px 10px;
+}
+
+.nav-content-desktop ul li:hover a {
+  color: var(--color-primary);
 }
 
 .logo-container-about-me img {
