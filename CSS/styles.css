@@ -325,7 +325,8 @@ body {
   }
 
   .logo-footer img {
-    width: 80%;
+    width: 130%;
+    height: auto;
   }
 
   .nav-social-desktop li img {
@@ -444,7 +445,7 @@ body {
   .partner {
     display: block;
     background-color: var(--color-primary-variant);
-    padding: 0 10% 2%;
+    padding: 0 10% 2% 10%;
   }
 
   .title-partners {
@@ -475,7 +476,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10% 0 10%;
+    padding: 2% 10% 2% 10%;
   }
 
   .logo-footer {
@@ -483,7 +484,7 @@ body {
   }
 
   .text-footer {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .featured-speakers-cards {
