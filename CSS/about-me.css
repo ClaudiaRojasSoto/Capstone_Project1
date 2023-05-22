@@ -161,10 +161,7 @@ body {
 
 .about-past {
   background-color: var(--color-border);
-  height: 2px;
   margin-top: 20px;
-  margin-bottom: 50px;
-  clear: both;
 }
 
 .about-past-content h4 {
@@ -215,6 +212,7 @@ body {
 .partner {
   background-color: var(--color-primary-variant);
   padding: 0 10%;
+  display: block;
 }
 
 .title-partners {
@@ -449,58 +447,45 @@ footer {
     padding: 0 30%;
   }
 
-  .about-past {
-    background-color: var(--color-border);
-    height: 2px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    clear: both;
-  }
-  
-  .about-past-content h4 {
-    padding-top: 5%;
-    text-align: center;
-    letter-spacing: 0.1px;
-    color: var(--color-primary-variant);
-  }
-  
-  .about-past-section-image {
-    text-align: center;
-    padding: 5% 7% 12% 7%;
-  }
-  
-  .target1 {
-    background-image: linear-gradient(rgba(138, 21, 1, 0.631), rgba(138, 21, 1, 0.631)), url("../img/familias.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+  .about-past-mages-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
+    width: 100%;
+    gap: 4%;
+    padding: 0 10%;
   }
-  
+
+  .about-past-mages-box-container li {
+    width: 100%;
+  }
+
   .target2 {
-    background-image: linear-gradient(rgba(138, 21, 1, 0.631), rgba(138, 21, 1, 0.631)), url("../img/profes1.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
-  }
-  
-  .year {
-    color: var(--color-white);
-    font-size: 25px;
-    font-weight: 700;
-    padding-top: 20%;
-  }
-  
-  .meeting {
-    color: var(--color-white);
-    font-size: 12px;
-    font-weight: 700;
-    padding-bottom: 20%;
+    margin: 0;
   }
 
+  .partner {
+    display: none;
+  }
 
+  footer {
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 10% 2% 10%;
+  }
+
+  .logo-footer {
+    padding: 0 15%;
+  }
+
+  .text-footer {
+    font-size: 15px;
+  }
 }
