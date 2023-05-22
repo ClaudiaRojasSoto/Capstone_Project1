@@ -119,16 +119,7 @@ body {
   padding: 0 2%;
   text-align: center;
   position: relative;
-}
-
-.main-direction::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 27%;
-  right: 27%;
-  height: 0.5px;
-  background-color: var(--color-bg);
+  text-decoration: underline;
 }
 
 .about-me-title h4 {
@@ -411,24 +402,5 @@ footer {
     text-align: center;
     line-height: 15px;
     margin-bottom: 3px;
-  }
-
-  .main-direction {
-    color: var(--color-bg);
-    font-weight: 700;
-    font-size: 10px;
-    padding: 0 2%;
-    text-align: center;
-    position: relative;
-  }
-
-  .main-direction::after {
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    left: 27%;
-    right: 27%;
-    height: 0.5px;
-    background-color: var(--color-bg);
   }
 }
