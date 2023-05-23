@@ -446,11 +446,11 @@ footer {
   }
 
   .main-section h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: var(--color-primary);
     font-weight: 800;
     text-align: center;
-    padding: 0 22%;
+    padding: 0 18%;
   }
 
   .main-content {
