@@ -149,3 +149,4 @@ function updateCardLayout() {
   window.addEventListener('resize', updateCardLayout);
   updateCardLayout();
   
+  
