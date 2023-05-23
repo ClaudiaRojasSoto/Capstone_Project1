@@ -24,7 +24,7 @@ const menuOptions = [
   { label: 'Program', href: 'index.html#program' },
   { label: 'Join', href: '#join' },
   { label: 'News', href: '#news' },
-  { label: 'Contact', href: '#contact' }
+  { label: 'Contact', href: '#contact' },
 ];
 
 menuOptions.forEach((option) => {
