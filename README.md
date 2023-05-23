@@ -206,7 +206,7 @@ I would like to thank...
 <p> * Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.</p>
 <p> * GitHub Docs for providing a wealth of information on Git and GitHub.</p>
 <p> * Creative Commons for providing the design of this work.</p>
-<p> * Cindy Shine.......</p>
+<p> * Cindy Shin in Behance, for her original design idea</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
