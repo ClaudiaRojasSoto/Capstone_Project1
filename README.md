@@ -204,7 +204,14 @@ I would like to thank...
 <p> * Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.</p>
 <p> * GitHub Docs for providing a wealth of information on Git and GitHub.</p>
 <p> * Creative Commons for providing the design of this work.</p>
+<p> * You can click on the link to see the original design</p>
+
+[original design on Behance](https://www.behance.net/gallery/29845175CC-Global-Summit-2015). 
+
 <p> * Cindy Shin in Behance, for her original design idea</p>
+<p> * You can click on the link to see the Cindy Shin profile on Behance</p>
+
+[Cindy Shin profile on Behance](https://www.behance.net/adagio07)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
