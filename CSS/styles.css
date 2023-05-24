@@ -90,6 +90,12 @@ body {
 
 .main-section {
   padding: 5%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/ninosninas.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .main-subtitle {
@@ -109,7 +115,7 @@ body {
   padding: 5% 3%;
   border: 3px solid var(--color-white);
   font-size: 12px;
-  background-color: #f7f7f7;
+  background-color: rgb(247, 247, 247);
   margin: 7% 0;
 }
 
@@ -382,7 +388,8 @@ body {
     align-items: center;
     height: 45px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 0 10% 0 10%;
+    padding: 0 10%;
+    margin-bottom: 3px;
   }
 
   .logo-link {
